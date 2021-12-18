@@ -20,8 +20,8 @@ from torch.cuda.amp import autocast, GradScaler
 from logger import FileLogger
 
 import torchvision
-import datasets_preproc
-import transforms_preproc
+import datasets
+import transforms
 
 from hyperopt import *
 from hyperopt.fmin import generate_trials_to_calculate
@@ -145,7 +145,9 @@ def objective(h):
     
     k = 5 # Number of folds for cross-validation
     # Load whole dataset
-    data = pd.read_csv(r"/s/luffy/b/nobackup/chairoy/Experiment_2/Exp_2.1/video_paths_labels_full_rsz_fps15_center_10.csv")
+    data_center = pd.read_csv(r"/s/babbage/b/nobackup/nblancha/public-datasets/APE-V/Experiment_2/Exp_2.3/Exp_2.3.3/video_paths_labels_full_rsz_fps15_center_10.csv")
+    data_left = pd.read_csv(r"/s/babbage/b/nobackup/nblancha/public-datasets/APE-V/Experiment_3/Exp_3.1/Exp_3.1.3/video_paths_labels_full_rsz_fps15_left_10.csv")
+    data_right = pd.read_csv(r"/s/babbage/b/nobackup/nblancha/public-datasets/APE-V/Experiment_3/Exp_3.1/Exp_3.1.3/video_paths_labels_full_rsz_fps15_right_10.csv")
     
     pid_videos = []
     #list_of_P = [1, 2, 3, 5, 6, 7, 8, 9, 10, 13, 16, 22, 24, 25, 28, 33, 37, 38, 41, 43, 44, 46]
