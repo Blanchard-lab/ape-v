@@ -20,7 +20,7 @@ from torch.cuda.amp import autocast, GradScaler
 from logger import FileLogger
 
 import torchvision
-import datasets_preproc
+import datasets
 import transforms
 
 from hyperopt import *
