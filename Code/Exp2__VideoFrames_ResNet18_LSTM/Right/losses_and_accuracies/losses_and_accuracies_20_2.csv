@@ -1,0 +1,11 @@
+model_20_2,train_losses,test_losses,train_accuracies,test_accuracies
+1,0.6854273927311937,0.6951299253499733,tensor([62.3950], device='cuda:1'),tensor([49.0566], device='cuda:1')
+2,0.6620650005941632,0.6950329722098585,tensor([75.4202], device='cuda:1'),tensor([50.9434], device='cuda:1')
+3,0.6339451114670569,0.6934303495119203,tensor([79.2017], device='cuda:1'),tensor([52.8302], device='cuda:1')
+4,0.5877005923695925,0.6917752927204348,tensor([86.1345], device='cuda:1'),tensor([53.7736], device='cuda:1')
+5,0.5426810426371438,0.707603672765336,tensor([87.1849], device='cuda:1'),tensor([53.7736], device='cuda:1')
+6,0.4878830291142985,0.71541254925278,tensor([89.4958], device='cuda:1'),tensor([55.6604], device='cuda:1')
+7,0.43602500041993725,0.6874771433056526,tensor([89.9160], device='cuda:1'),tensor([61.3208], device='cuda:1')
+8,0.3648979483532305,0.7593295405495841,tensor([93.4874], device='cuda:1'),tensor([54.7170], device='cuda:1')
+9,0.3018777182623118,0.8227153026832724,tensor([95.3782], device='cuda:1'),tensor([52.8302], device='cuda:1')
+10,0.26469700426614584,0.8253253360964218,tensor([95.1681], device='cuda:1'),tensor([57.5472], device='cuda:1')
