@@ -2,7 +2,6 @@ APE-V: Athlete Performance Evaluation using Video
 
 The repository contains Code and Data pertaining to the paper "APE-V: Athlete Performance Evaluation using Video". 
 
-Code:
 - Files used for training and evaluating models with respect to experimental results presented in the paper.
 - Code files common to all experiments are present in the main experiment folder, while those specific to an experiment (specifically related to Combined View models) are provided in their sub-folder.
 - Experiment 1:
