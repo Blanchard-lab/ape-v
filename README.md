@@ -10,5 +10,5 @@ The repository contains Code and Data pertaining to the paper "APE-V: Athlete Pe
   - Each folder also contains additional data, corresponding to the Threshold experiment.
 - Experiments 2 & 3:
   - Our current paths for videos are present in the csv files used for extracting and preprocessing the data for the Video Frame experiments. These should be replaced with the corresponding file paths at the time of experimentation.
-  - The videos can be requested for use from the following link: cvrl.nd.edu/projects/data/ -> ND-Jump Analysis Video Dataset
+  - The videos can be requested for use from the following link: https://cvrl.nd.edu/projects/data/ -> ND-Jump Analysis Video Dataset
 - Each experiment sub-folder contains the hyperparameters file, which can be used to re-create the models presented in the paper. 
