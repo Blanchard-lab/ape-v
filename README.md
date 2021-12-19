@@ -3,7 +3,7 @@ APE-V: Athlete Performance Evaluation using Video
 The repository contains Code and Data pertaining to the paper "APE-V: Athlete Performance Evaluation using Video". 
 
 - Files used for training and evaluating models with respect to experimental results presented in the paper.
-- Code files common to all experiments are present in the main experiment folder, while those specific to an experiment (specifically related to Combined View models) are provided in their sub-folder.
+- Code files common to all sub-experiments are present in their respective experiment folder [For e.g., "Code/Exp1__OpenPose_skeleton_LSTM" contains files pertaining to all Pose experiments], while those specific to an experiment (specifically related to Combined View models) are provided in their sub-folder.
 - Experiment 1:
   - "Data/Skeleton data" contains skeleton points of the joints used for this experiment.
   - Each sub-folder corresponds to data for a different experiment. For e.g., "Data/Skeleton data/Confident Frames" corresponds to experiments on Confident Frames, with each corresponding file for the Center, Left, or Right view videos.
