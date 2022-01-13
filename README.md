@@ -12,3 +12,16 @@ The repository contains Code and Data pertaining to the paper "APE-V: Athlete Pe
   - Our current paths for videos are present in the csv files used for extracting and preprocessing the data for the Video Frame experiments. These should be replaced with the corresponding file paths at the time of experimentation.
   - The videos can be requested for use from the following link: https://cvrl.nd.edu/projects/data/ -> ND-Jump Analysis Video Dataset
 - Each experiment sub-folder contains the hyperparameters file, which can be used to re-create the models presented in the paper. 
+
+### Citation
+
+```
+@InProceedings{Roygaga_2022_WACV,
+    author    = {Roygaga, Chaitanya and Patil, Dhruva and Boyle, Michael and Pickard, William and Reiser, Raoul and Bharati, Aparna and Blanchard, Nathaniel},
+    title     = {APE-V: Athlete Performance Evaluation Using Video},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2022},
+    pages     = {691-700}
+}
+```
